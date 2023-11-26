@@ -27,19 +27,10 @@ Convolutional neural network (CNN) is a class of deep neural network commonly us
 ![Correct Prediction by the Model](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Correct_Prediction2.png)
 
 
-<B>Incorrect Prediction by the model</B>
-
-![Incorrect Prediction by the Model](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Incorrect_Prediction2.png)
-
-
 ## CONCLUSION:
 Recognition of different images is a simple task for we humans as it is easy for us to distinguish between different features. Somehow our brains are trained un-
 consciously with a similar type of images that has helped us distinguish between features (images) without putting much effort into the task. For instance, after seeing a few cats, we can recognize almost every different type of cat we encounter in our life. However, machines need a lot of training for feature extraction which becomes a challenge due to high computation cost, memory requirement and processing power. 
 The transfer learning model built in this project for CIFAR-100 dataset recognizes and classifies colored images of objects in one of the 100 available categories with 82% accuracy. The reported loss is 0.19. The model used techniques like early stopping, reduce learning rate on plateau and dropout to avoid overffitting. Even after training the model with millions of parameters, the model predicted the class for a few images completely wrong. It is considered that the performance of a deep learning model increases with the amount of data used in its training. It is believed that the accuracy of this dataset can be further improved by using the other versions of EfficientNet.
-
-<B>Detailed Project Paper:</B>
-https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/Cifar100_EfficientNetB0_ProjectPaper.pdf
-
 
 
 # Version 1: CIFAR-100 Image Recognition Using Convolutional Neural Network
